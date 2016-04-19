@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Monday:</strong>
+  <%= @delivery_hour.monday %>
+</p>
+
+<p>
+  <strong>Monday closing time:</strong>
+  <%= @delivery_hour.monday_closing_time %>
+</p>
+
+<p>
+  <strong>Tuesday:</strong>
+  <%= @delivery_hour.tuesday %>
+</p>
+
+<p>
+  <strong>Tuesday closing time:</strong>
+  <%= @delivery_hour.tuesday_closing_time %>
+</p>
+
+<p>
+  <strong>Wednesday:</strong>
+  <%= @delivery_hour.wednesday %>
+</p>
+
+<p>
+  <strong>Wednesday closing time:</strong>
+  <%= @delivery_hour.wednesday_closing_time %>
+</p>
+
+<p>
+  <strong>Thursday:</strong>
+  <%= @delivery_hour.thursday %>
+</p>
+
+<p>
+  <strong>Thursday closing time:</strong>
+  <%= @delivery_hour.thursday_closing_time %>
+</p>
+
+<p>
+  <strong>Friday:</strong>
+  <%= @delivery_hour.friday %>
+</p>
+
+<p>
+  <strong>Friday closing time:</strong>
+  <%= @delivery_hour.friday_closing_time %>
+</p>
+
+<p>
+  <strong>Saturday:</strong>
+  <%= @delivery_hour.saturday %>
+</p>
+
+<p>
+  <strong>Saturday closing time:</strong>
+  <%= @delivery_hour.saturday_closing_time %>
+</p>
+
+<p>
+  <strong>Sunday:</strong>
+  <%= @delivery_hour.sunday %>
+</p>
+
+<p>
+  <strong>Sunday closing time:</strong>
+  <%= @delivery_hour.sunday_closing_time %>
+</p>
+
+<%= link_to 'Edit', edit_delivery_hour_path(@delivery_hour) %> |
+<%= link_to 'Back', delivery_hours_path %>

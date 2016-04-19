@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :delivery_hours
   resources :pickup_hours
   get 'pages/index'
 

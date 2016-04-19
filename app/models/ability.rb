@@ -9,6 +9,7 @@ class Ability
        can :manage, :all
        can :manage, Restaurant
        can :manage, PickupHour
+       can :manage, DeliveryHour
      else
        can :read, :all
        can :read, Restaurant

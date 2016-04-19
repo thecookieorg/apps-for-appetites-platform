@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  monday: 2016-04-19 23:31:25
+  monday_closing_time: 2016-04-19 23:31:25
+  tuesday: 2016-04-19 23:31:25
+  tuesday_closing_time: 2016-04-19 23:31:25
+  wednesday: 2016-04-19 23:31:25
+  wednesday_closing_time: 2016-04-19 23:31:25
+  thursday: 2016-04-19 23:31:25
+  thursday_closing_time: 2016-04-19 23:31:25
+  friday: 2016-04-19 23:31:25
+  friday_closing_time: 2016-04-19 23:31:25
+  saturday: 2016-04-19 23:31:25
+  saturday_closing_time: 2016-04-19 23:31:25
+  sunday: 2016-04-19 23:31:25
+  sunday_closing_time: 2016-04-19 23:31:25
+
+two:
+  monday: 2016-04-19 23:31:25
+  monday_closing_time: 2016-04-19 23:31:25
+  tuesday: 2016-04-19 23:31:25
+  tuesday_closing_time: 2016-04-19 23:31:25
+  wednesday: 2016-04-19 23:31:25
+  wednesday_closing_time: 2016-04-19 23:31:25
+  thursday: 2016-04-19 23:31:25
+  thursday_closing_time: 2016-04-19 23:31:25
+  friday: 2016-04-19 23:31:25
+  friday_closing_time: 2016-04-19 23:31:25
+  saturday: 2016-04-19 23:31:25
+  saturday_closing_time: 2016-04-19 23:31:25
+  sunday: 2016-04-19 23:31:25
+  sunday_closing_time: 2016-04-19 23:31:25
