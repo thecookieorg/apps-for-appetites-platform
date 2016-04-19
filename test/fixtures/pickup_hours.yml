@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  monday: 2016-04-19 23:17:54
+  tuesday: 2016-04-19 23:17:54
+  wednesday: 2016-04-19 23:17:54
+  thursday: 2016-04-19 23:17:54
+  friday: 2016-04-19 23:17:54
+  saturday: 2016-04-19 23:17:54
+  sunday: 2016-04-19 23:17:54
+
+two:
+  monday: 2016-04-19 23:17:54
+  tuesday: 2016-04-19 23:17:54
+  wednesday: 2016-04-19 23:17:54
+  thursday: 2016-04-19 23:17:54
+  friday: 2016-04-19 23:17:54
+  saturday: 2016-04-19 23:17:54
+  sunday: 2016-04-19 23:17:54

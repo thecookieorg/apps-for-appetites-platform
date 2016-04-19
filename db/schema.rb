@@ -11,7 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160419230711) do
+ActiveRecord::Schema.define(version: 20160419232240) do
+
+  create_table "pickup_hours", force: :cascade do |t|
+    t.time     "monday"
+    t.time     "tuesday"
+    t.time     "wednesday"
+    t.time     "thursday"
+    t.time     "friday"
+    t.time     "saturday"
+    t.time     "sunday"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.time     "monday_closing_time"
+    t.time     "tuesday_closing"
+    t.time     "wednesday_closing_time"
+    t.time     "thursday_closing_time"
+    t.time     "friday_closing_time"
+    t.time     "saturday_closing_time"
+    t.time     "sunday_closing_time"
+  end
 
   create_table "restaurants", force: :cascade do |t|
     t.string   "restaurant_name"

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pickup_hours
   get 'pages/index'
 
   resources :restaurants

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Monday:</strong>
+  <%= @pickup_hour.monday %>
+</p>
+
+<p>
+  <strong>Tuesday:</strong>
+  <%= @pickup_hour.tuesday %>
+</p>
+
+<p>
+  <strong>Wednesday:</strong>
+  <%= @pickup_hour.wednesday %>
+</p>
+
+<p>
+  <strong>Thursday:</strong>
+  <%= @pickup_hour.thursday %>
+</p>
+
+<p>
+  <strong>Friday:</strong>
+  <%= @pickup_hour.friday %>
+</p>
+
+<p>
+  <strong>Saturday:</strong>
+  <%= @pickup_hour.saturday %>
+</p>
+
+<p>
+  <strong>Sunday:</strong>
+  <%= @pickup_hour.sunday %>
+</p>
+
+<%= link_to 'Edit', edit_pickup_hour_path(@pickup_hour) %> |
+<%= link_to 'Back', pickup_hours_path %>

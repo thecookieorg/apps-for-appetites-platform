@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Pickup Hours</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pickup_hours.each do |pickup_hour| %>
+      <tr>
+        <td><%= pickup_hour.monday %></td>
+        <td><%= pickup_hour.tuesday %></td>
+        <td><%= pickup_hour.wednesday %></td>
+        <td><%= pickup_hour.thursday %></td>
+        <td><%= pickup_hour.friday %></td>
+        <td><%= pickup_hour.saturday %></td>
+        <td><%= pickup_hour.sunday %></td>
+        <td><%= link_to 'Show', pickup_hour %></td>
+        <td><%= link_to 'Edit', edit_pickup_hour_path(pickup_hour) %></td>
+        <td><%= link_to 'Destroy', pickup_hour, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pickup hour', new_pickup_hour_path %>

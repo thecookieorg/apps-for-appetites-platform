@@ -1,0 +1,30 @@
+<%= simple_form_for(@pickup_hour) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :monday %>
+    <%= f.input :monday_closing_time %>
+    <br>
+    <%= f.input :tuesday %>
+    <%= f.input :tuesday_closing %>
+    <br>
+    <%= f.input :wednesday %>
+    <%= f.input :wednesday_closing_time %>
+    <br>
+    <%= f.input :thursday %>
+    <%= f.input :thursday_closing_time %>
+    <br>
+    <%= f.input :friday %>
+    <%= f.input :friday_closing_time %>
+    <br>
+    <%= f.input :saturday %>
+    <%= f.input :saturday_closing_time %>
+    <br>
+    <%= f.input :sunday %>
+    <%= f.input :sunday_closing_time %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
