@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Restaurant name:</strong>
+  <%= @restaurant.restaurant_name %>
+</p>
+
+<p>
+  <strong>Restaurant phone number:</strong>
+  <%= @restaurant.restaurant_phone_number %>
+</p>
+
+<p>
+  <strong>Full address:</strong>
+  <%= @restaurant.full_address %>
+</p>
+
+<p>
+  <strong>Pickup:</strong>
+  <%= @restaurant.pickup %>
+</p>
+
+<p>
+  <strong>Delivery:</strong>
+  <%= @restaurant.delivery %>
+</p>
+
+<p>
+  <strong>Accept orders for later:</strong>
+  <%= @restaurant.accept_orders_for_later %>
+</p>
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>
