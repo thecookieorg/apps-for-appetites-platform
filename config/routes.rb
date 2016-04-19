@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :taxes
   resources :delivery_hours
   resources :pickup_hours
   get 'pages/index'

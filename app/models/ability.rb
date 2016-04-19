@@ -10,9 +10,9 @@ class Ability
        can :manage, Restaurant
        can :manage, PickupHour
        can :manage, DeliveryHour
+       can :manage, Tax
      else
        can :read, :all
-       can :read, Restaurant
      end
     #
     # The first argument to `can` is the action you are giving the user
