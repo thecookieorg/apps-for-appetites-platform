@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160419233757) do
+ActiveRecord::Schema.define(version: 20160420173305) do
 
   create_table "delivery_hours", force: :cascade do |t|
     t.time     "monday"
@@ -30,6 +30,12 @@ ActiveRecord::Schema.define(version: 20160419233757) do
     t.time     "sunday_closing_time"
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+  end
+
+  create_table "menus", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "pickup_hours", force: :cascade do |t|
