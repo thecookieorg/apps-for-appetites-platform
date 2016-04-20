@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :categories
   resources :menus
   resources :taxes
   resources :delivery_hours
