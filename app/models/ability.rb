@@ -12,6 +12,7 @@ class Ability
        can :manage, DeliveryHour
        can :manage, Tax
        can :manage, Menu
+       can :manage, Dashboard
      else
        can :read, :all
      end
